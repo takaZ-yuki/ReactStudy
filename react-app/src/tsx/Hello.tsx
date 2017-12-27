@@ -6,6 +6,6 @@ export interface Props {
 
 export default class MyComponent extends React.Component<Props, {}> {
     render() {
-        return <div>{this.props.content}</div>
+        return <div className="red">{this.props.content}</div>
     }
 }
