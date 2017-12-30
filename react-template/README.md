@@ -14,7 +14,7 @@
   npm run build
 ```
 
-### 開発用webサーバ起動
+### 開発用webサーバ起動↓
 
 ```
   npm run start
