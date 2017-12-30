@@ -33,7 +33,6 @@
     "webpack-dev-server": "^2.9.7"
   },
   "dependencies": {
-    "firebase": "^4.8.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   }

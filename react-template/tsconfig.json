@@ -1,0 +1,31 @@
+{
+  "version": "2.4.2",
+  "compilerOptions": {
+      "declaration": true,
+      "lib": ["es6","dom"],
+      "module": "commonjs",
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitThis": true,
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "outDir": "dist/",
+      "rootDir": "src/",
+      "sourceMap": false,
+      "strict": true,
+      "jsx": "react",
+      "target": "es5",
+      "plugins": [
+          {
+              "name": "tslint-language-service",
+              "alwaysShowRuleFailuresAsWarnings": true,
+              "ignoreDefinitionFiles": true
+          }
+      ]
+  },
+  "exclude": [
+      "dist",
+      "node_modules",
+      "test/rules"
+  ]
+}
