@@ -8,6 +8,12 @@ module.exports = [
       filename: './dist/js/bundle.js'
     },
 
+    // Configuration for dev server
+    devServer: {
+      contentBase: path.join(__dirname, './public'),
+      port: 3000
+    },
+
     devtool: 'source-map',
 
     resolve: {

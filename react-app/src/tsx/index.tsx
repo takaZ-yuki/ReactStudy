@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom';
 
 import Hello from "./Hello";
 
-ReactDOM.render(
+ReactDOM.render (
   <Hello content="hello world"/>,
   document.getElementById('app')
 );
