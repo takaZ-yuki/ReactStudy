@@ -1,11 +1,11 @@
-import * as React from 'react';
+import * as React from "react";
 
-export interface Props {
+export interface IProps {
     content: string;
 }
 
-export default class MyComponent extends React.Component<Props, {}> {
+export default class MyComponent extends React.Component < IProps, {} > {
     render() {
-        return <div className="red">{this.props.content}</div>
+        return <div className="red">{this.props.content}</div>;
     }
 }
